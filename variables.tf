@@ -1,11 +1,11 @@
 variable "aws_region" {
        description = "The AWS region to create things in." 
-       default     = "ap-south-1" 
+       default     = "eu-west-2" 
 }
 
 variable "key_name" { 
     description = " SSH keys to connect to ec2 instance" 
-    default     =  "dell lap key" 
+    default     =  "fiyi key" 
 }
 
 variable "instance_type" { 
@@ -15,7 +15,7 @@ variable "instance_type" {
 
 variable "security_group" { 
     description = "Name of security group" 
-    default     = "jenkins-sgroup-dec-2021" 
+    default     = "sg-02843eb31c398243b" 
 }
 
 variable "tag_name" { 
@@ -24,7 +24,7 @@ variable "tag_name" {
 } 
 variable "ami_id" { 
     description = "AMI for Ubuntu Ec2 instance" 
-    default     = "ami-03f4878755434977f" 
+    default     = "ami-0e5f882be1900e43b" 
 }
 variable "versioning" {
     type        = bool
