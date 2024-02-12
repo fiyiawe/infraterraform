@@ -1,8 +1,8 @@
 terraform {
   backend "s3" {
-    bucket = "terraform-state-bucket-0402"
+    bucket = "myterraformstatebucket1212"
     key = "main"
-    region = "ap-south-1"
-    dynamodb_table = "hashtekTerraformStatelock"
+    region = "eu-west-2"
+    dynamodb_table = "fiyiterraformstateblock	"
   }
 }
