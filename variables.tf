@@ -18,6 +18,11 @@ variable "security_group_id" {
     default     = "sg-02843eb31c398243b"
 }
 
+variable "security_group" {
+  description = "Name of the security group"
+  default     = "jenkins-sg"  # Provide a default value here if needed
+}
+
 variable "tag_name" { 
     description = "Tag Name of for Ec2 instance" 
     default     = "my-ec2-instance" 
