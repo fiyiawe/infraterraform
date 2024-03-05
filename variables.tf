@@ -13,9 +13,9 @@ variable "instance_type" {
     default     =  "t2.micro" 
 }
 
-variable "security_group" { 
-    description = "Name of security group" 
-    default     = "02843eb31c398243b" 
+variable "security_group_id" {
+    description = "ID of the security group"
+    default     = "sg-02843eb31c398243b"
 }
 
 variable "tag_name" { 
